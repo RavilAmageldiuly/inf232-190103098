@@ -21,6 +21,6 @@ Route::get('first_step', function() {
 	return "Hello World!";
 });
 
-Route::get('name_surname', function(){
-	return "Ravil Amangeldiuly";
+Route::get('/name', function(){
+	return view('name');
 });
