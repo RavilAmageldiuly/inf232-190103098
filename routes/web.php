@@ -23,5 +23,6 @@ Route::get('first_step', function() {
 });
 
 Route::get('/name', function(){
+	// View that returns my name
 	return view('name');
 });
