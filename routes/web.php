@@ -26,3 +26,5 @@ Route::get('/name', function(){
 	// View that returns my name
 	return view('name');
 });
+
+// It's just for third commit command
